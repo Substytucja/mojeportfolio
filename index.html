@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Moje portfolio</title>
+	
+	<!--odnośnik do czcionek z google.fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="i" href="CSS/style.css"> </head>
+
+<body>
+	
+	<!--menu NAV stworzenie menu nawigacyjnego-->
+	<nav id="main-nav">
+		<ul>
+			<li class="menu-item"><a href="">O mnie</a></li>
+			<li class="menu-item"><a href="">umiejętności</a></li>
+			<li class="menu-item"><a href="">portfolio</a></li>
+			<li class="menu-item"><a href="">kontakt</a></li>
+		</ul>
+	</nav>
+	
+	<!--HEADER stworzenie nagłówka na tle obrazu-->
+	
+	<header id="main-header">
+		<div class="main-header-text">
+			<h1>Jan <span>Nowak</span></h1>
+			<h2>Front End Developer</h2> </div>
+	</header>
+	
+	<!--SECTION stworzenie sekcji z tekstem i obrazem-->
+	
+	<section id="about">
+	<h2>O <span>mnie</span></h2>
+		<figure class="col-1-2"> <img src="img/jan-nowak.jpg" class="about-img" alt="jan-nowak"> </figure>
+		<div class="col-1-2">
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor totam soluta doloremque pariatur consequuntur ut esse culpa iusto non vel eaque architecto beatae veritatis impedit, perferendis tempore, aperiam vero voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sint sapiente numquam quisquam expedita eaque unde vitae! Rem beatae natus, aut distinctio! Adipisci a saepe soluta nobis voluptatibus explicabo nam.</p>
+		</div>
+	</section>
+	
+	<!--SECTION stworzenie sekcji z tekstem i obrazem (4 obrazki)-->
+	
+	<h2>Moje <span>umiejętności</span></h2>
+	
+	<section id="skills"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam provident officiis quia. Dicta eligendi corporis obcaecati, id exercitationem, ab, non, autem consequatur ipsum quae dolores ipsam vitae dolorem temporibus perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam provident officiis quia. Dicta eligendi corporis obcaecati, id exercitationem, ab, non, autem consequatur ipsum quae dolores ipsam vitae dolorem temporibus perferendis.</p>
+	
+	
+	<div class="skills-icons">
+	<figure>
+	<img src="icons/html5.png" alt="HTML5"><figcaption>HTML5</figcaption></figure>
+	<figure>
+	<img src="icons/html5.png" alt="HTML5"><figcaption>CSS3</figcaption></figure>
+	<figure>
+	<img src="icons/html5.png" alt="HTML5"><figcaption>JavaScript</figcaption></figure>
+	<figure>
+	<img src="icons/html5.png" alt="HTML5"><figcaption>jQuery</figcaption></figure>
+	</div>
+	
+	</section>
+	
+	<!-- stworzenie portfolio-->
+	
+	
+	<section id="portfolio">
+	
+	<h2>Moje <span>portfolio</span></h2>
+	
+	<div class="portfolio-items">
+		<div class="portfolio-item" id="portfolio-item-1">
+		<div class="portfolio-mask"></div>
+		<div class="portfolio-content">
+			<div class="portfolio-content-inner">
+				<h3>lorem ipsum</h3><P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eos, repellat, vel magni, esse reiciendis doloribus natus quasi, ullam corporis dolores odit ipsa consectetur amet velit nesciunt. Asperiores, delectus, sed.</p>
+			<h4>LOREM</h4><P>HTML, CSS, JS, JQuery</p></div>
+		</div>
+		</div>
+		<div class="portfolio-item" id="portfolio-item-2"></div>
+		<div class="portfolio-item" id="portfolio-item-3"></div>
+		</div>
+	</section>
+		
+	<!--FORM formularz do wysłania danych -->
+	<form> <br>
+    <label for="message">Wiadomość: </label>
+    <textarea name="message" cols="30" rows="10" id="message"></textarea>
+    <br>
+    <input type="checkbox" id="agreement" name="agreement">
+    <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+    <br>
+    <input type="submit" value="Send">
+	</form>	
+				
+				
+</body>
+</html>
